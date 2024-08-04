@@ -1,0 +1,75 @@
+body {
+font-family: Arial, sans-serif;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+.restaurant-chain {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.restaurant-location {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.location-name {
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+}
+
+.employee {
+    background-color: #e9f0f7;
+    border: 1px solid #c5d5e5;
+    border-radius: 3px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+
+    P {
+        padding: 5px 0;
+    }
+}
